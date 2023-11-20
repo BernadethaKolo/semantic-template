@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMBUAT WEB PORTOFOLIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        p {
+            font-size: 32px;
+            font-family: 'Times New Roman';
+            color: #02b5a0;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-family: 'Times New Roman';
+            color: #011311;
+            font-weight: bold;
+        }
+
+        h5 {
+            font-family: 'Times New Roman';
+            color: #011311;
+        }
+
+        img {
+            max-width: 10%;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 5px solid #024139;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+             font-size: 12px;
+            margin-bottom: 8px;
+            font-family: 'Times New Roman';
+            color: #011311;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <nav>
+        <ul>
+            <p>MEMBUAT WEBSITE SEDERHANA</p>
+        </ul>
+    </nav>
+    <hr>
+    <div class="container">
+        <section>
+            <img src="erna.jpeg" alt="Gambar Saya">
+            <h2>My Name's Bernadetha Paskalia Kolo</h2>
+            <h5>Salam! Saya Bernadetha Paskalia Kolo (Erna), seorang mahasiswa dengan kecintaan mendalam terhadap bidang
+                komputer-pemrograman web. Dengan latar belakang pendidikan dari STIKOM Uyelindo Kupang dan pengalaman
+                yang
+                luas dalam kegiatan perkuliahan dan magang, saya terus berinovasi dan mencari tantangan baru. Saya
+                percaya
+                dalam terus-menerus belajar dan berkembang, dan portofolio ini mencerminkan sebagian kecil dari
+                karya-karya
+                saya yang telah dihasilkan. Jika Anda tertarik untuk berkolaborasi atau memiliki pertanyaan lebih
+                lanjut,
+                jangan ragu untuk menghubungi saya. Saya berharap dapat memberikan kontribusi positif dan membawa nilai
+                tambah dalam setiap proyek atau tugas yang saya ambil.</h5>
+        </section>
+        <h5>CONTACT ME</h5>
+        <form action="" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+</body>
+
+</html>
